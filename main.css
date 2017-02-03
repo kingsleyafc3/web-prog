@@ -1,0 +1,64 @@
+body{
+    background-attachment: fixed;
+    background-image: url("background.jpg")
+}
+h1{
+    color:black;
+    font-weight: 600;
+    font-family: sans-serif;
+    font-size: 50px;
+    box-shadow: 0 0 2px rgba(0,0,0,0.06);
+    text-align: center;
+    
+}
+a:hover{
+    background-color: red;
+}
+
+.Quote{
+    font-weight: 400;
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 600;
+    
+}
+
+h3{
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+}
+p {
+    text-align: center;
+}
+
+
+ul{
+    font-size: 18px;
+}
+
+li{
+    font-size: 19px;
+}
+table {
+  width: 100%;
+}
+th {
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+th, td {
+    text-align: center;
+    padding: 0.25rem;
+    text-align: left;
+    border: 1px solid #ccc;
+}
+tbody tr:nth-child(odd) {
+  background: #eee;
+}
